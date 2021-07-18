@@ -111,7 +111,7 @@ namespace Lazarus.Configuration
 
     class StaticConfig
     {
-        public static string Token { get; set; } = new string("1884301514:AAEwvF6YzqO-4vNgLzPSEEB-mkPzIaoFhhY");
+        public static string Token { get; set; } = new string("lol, bot token here");
         public static TelegramBotClient Bot { get; set; }
         public static List<DynamicConfig> dynamicConfigs { get; set; } = new List<DynamicConfig>();
     }
